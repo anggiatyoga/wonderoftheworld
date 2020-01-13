@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WondersOfTheWorld</string>
+    <string name="nama">Nama</string>
+    <string name="negara">Negara</string>
+    <string name="anggiat_dwi_prayoga">Anggiat Dwi Prayoga</string>
+    <string name="anggiatyoga10_gmail_com">anggiatyoga10@gmail.com</string>
+    <string name="detail_detail_detail_detail">Detail detail detail detail</string>
+    <string name="about">About</string>
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+    <string name="rate">Rate</string>
+    <string name="country">Country</string>
+    <string name="location">Location</string>
+    <string name="todo">TODO</string>
+</resources>

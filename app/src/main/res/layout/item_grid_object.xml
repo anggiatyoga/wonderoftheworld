@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/image_object_photo"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:paddingBottom="18dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="25dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_black_faded"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_object_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/nama"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_object_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/negara"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:background="@drawable/background_rectangullar_primarydark_transparant"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/todo" />
+
+
+</FrameLayout>

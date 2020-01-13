@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- android:textColorPrimary adalah warna teks title yang ada di Toolbar  -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+        <!-- actionMenuTextColor adalah warna teks action (menu item)  -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <!-- Memberi warna accent untuk input field seperti checkbox -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- memberi warna view saat normal. -->
+        <item name="colorControlNormal">@android:color/black</item>
+        <!-- Memberi warna saat view aktif (sedang diberi tanda cek atau di switch) -->
+        <item name="colorControlActivated">@android:color/white</item>
+        <!-- Memberi warna kontrol untuk efek ripples atau pemilihan list -->
+        <item name="colorControlHighlight">@android:color/white</item>
+
+        <!-- Tambahkan jika ingin memberi efek ripple saat memilih salah satu ikon -->
+        <!--
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        -->
+    </style>
+
+</resources>
